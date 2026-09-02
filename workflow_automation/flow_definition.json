@@ -1,0 +1,85 @@
+{
+  "definition": {
+    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+    "triggers": {
+      "When_a_new_matter_intake_form_is_submitted": {
+        "type": "Request",
+        "kind": "Http",
+        "inputs": {
+          "schema": {
+            "type": "object",
+            "properties": {
+              "matter_id": { "type": "string" },
+              "client": { "type": "string" },
+              "practice_group_requested": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "actions": {
+      "Run_conflict_check": {
+        "type": "ApiConnection",
+        "inputs": {
+          "host": { "connection": { "name": "conflicts_database_connector" } },
+          "method": "post",
+          "path": "/checkConflict",
+          "body": { "client": "@triggerBody()?['client']" }
+        }
+      },
+      "Condition_conflict_flagged": {
+        "type": "If",
+        "expression": {
+          "and": [
+            { "equals": ["@body('Run_conflict_check')?['flagged']", true] }
+          ]
+        },
+        "actions": {
+          "Notify_conflicts_committee": {
+            "type": "ApiConnection",
+            "inputs": {
+              "host": { "connection": { "name": "outlook_connector" } },
+              "method": "post",
+              "path": "/sendEmail",
+              "body": {
+                "to": "conflicts.committee@algfirm.example",
+                "subject": "Conflict flagged: @{triggerBody()?['matter_id']}",
+                "body": "Matter @{triggerBody()?['matter_id']} for @{triggerBody()?['client']} has been flagged for conflict review."
+              }
+            }
+          }
+        },
+        "else": {
+          "actions": {
+            "Route_to_practice_group_partner": {
+              "type": "ApiConnection",
+              "inputs": {
+                "host": { "connection": { "name": "outlook_connector" } },
+                "method": "post",
+                "path": "/sendEmail",
+                "body": {
+                  "to": "@variables('partner_email')",
+                  "subject": "New matter intake approved: @{triggerBody()?['matter_id']}",
+                  "body": "Matter @{triggerBody()?['matter_id']} cleared conflict check and is routed to your practice group."
+                }
+              }
+            },
+            "Log_to_matter_tracking_list": {
+              "type": "ApiConnection",
+              "inputs": {
+                "host": { "connection": { "name": "sharepoint_connector" } },
+                "method": "post",
+                "path": "/lists/MatterIntakeLog/items",
+                "body": {
+                  "MatterID": "@triggerBody()?['matter_id']",
+                  "Client": "@triggerBody()?['client']",
+                  "Status": "Approved — Routed"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

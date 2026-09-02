@@ -1,0 +1,137 @@
+[
+  {
+    "matter_id": "MAT-1001",
+    "client": "Beacon Retail Group",
+    "conflict_status": "CONFLICT_FLAGGED \u2014 Escalate to Conflicts Committee",
+    "is_existing_client": true,
+    "routed_to": "Conflicts Committee",
+    "notification_sent_to": "conflicts.committee@algfirm.example",
+    "action": "Hold matter intake pending committee review"
+  },
+  {
+    "matter_id": "MAT-1002",
+    "client": "Emerald Biotech",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Tax",
+    "notification_sent_to": "partner.tax@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1003",
+    "client": "Emerald Biotech",
+    "conflict_status": "CONFLICT_FLAGGED \u2014 Escalate to Conflicts Committee",
+    "is_existing_client": true,
+    "routed_to": "Conflicts Committee",
+    "notification_sent_to": "conflicts.committee@algfirm.example",
+    "action": "Hold matter intake pending committee review"
+  },
+  {
+    "matter_id": "MAT-1004",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Real Estate",
+    "notification_sent_to": "partner.realestate@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1005",
+    "client": "Corrib Energy plc",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Tax",
+    "notification_sent_to": "partner.tax@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1006",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Employment",
+    "notification_sent_to": "partner.employment@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1007",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Real Estate",
+    "notification_sent_to": "partner.realestate@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1008",
+    "client": "Beacon Retail Group",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Real Estate",
+    "notification_sent_to": "partner.realestate@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1009",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Tax",
+    "notification_sent_to": "partner.tax@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1010",
+    "client": "Corrib Energy plc",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Real Estate",
+    "notification_sent_to": "partner.realestate@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1011",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Litigation",
+    "notification_sent_to": "partner.litigation@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1012",
+    "client": "Emerald Biotech",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Real Estate",
+    "notification_sent_to": "partner.realestate@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1013",
+    "client": "Beacon Retail Group",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Litigation",
+    "notification_sent_to": "partner.litigation@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1014",
+    "client": "Beacon Retail Group",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Tax",
+    "notification_sent_to": "partner.tax@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  },
+  {
+    "matter_id": "MAT-1015",
+    "client": "Dunmore Logistics",
+    "conflict_status": "CLEAR \u2014 Existing client, no new conflict",
+    "is_existing_client": true,
+    "routed_to": "Litigation",
+    "notification_sent_to": "partner.litigation@algfirm.example",
+    "action": "Matter intake approved \u2014 partner notified for engagement letter drafting"
+  }
+]

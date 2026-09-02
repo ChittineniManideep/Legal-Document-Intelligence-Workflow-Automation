@@ -1,0 +1,122 @@
+[
+  {
+    "doc_id": "CTR-1",
+    "doc_type": "Master Services Agreement",
+    "client": "Acme Manufacturing Ltd",
+    "text": "This Master Services Agreement is entered into between Acme Manufacturing Ltd and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "CTR-2",
+    "doc_type": "Master Services Agreement",
+    "client": "Corrib Energy plc",
+    "text": "This Master Services Agreement is entered into between Corrib Energy plc and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "CTR-3",
+    "doc_type": "Master Services Agreement",
+    "client": "Fenway Capital Partners",
+    "text": "This Master Services Agreement is entered into between Fenway Capital Partners and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "MEMO-4",
+    "doc_type": "Case Memo",
+    "client": "Corrib Energy plc",
+    "text": "Internal memo regarding Corrib Energy plc's employment dispute matter. Summary: Former employee alleges unfair dismissal under the Unfair Dismissals Acts 1977-2015. Recommendation: Proceed to WRC mediation before considering a full hearing, given the cost/time trade-off. Risk assessment: Medium \u2014 documentation gaps in the performance review file."
+  },
+  {
+    "doc_id": "ENG-5",
+    "doc_type": "Engagement Letter",
+    "client": "Emerald Biotech",
+    "text": "Engagement Letter for Emerald Biotech regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "CTR-6",
+    "doc_type": "Master Services Agreement",
+    "client": "Emerald Biotech",
+    "text": "This Master Services Agreement is entered into between Emerald Biotech and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "CTR-7",
+    "doc_type": "Master Services Agreement",
+    "client": "Emerald Biotech",
+    "text": "This Master Services Agreement is entered into between Emerald Biotech and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "MEMO-8",
+    "doc_type": "Case Memo",
+    "client": "Beacon Retail Group",
+    "text": "Internal memo regarding Beacon Retail Group's employment dispute matter. Summary: Former employee alleges unfair dismissal under the Unfair Dismissals Acts 1977-2015. Recommendation: Proceed to WRC mediation before considering a full hearing, given the cost/time trade-off. Risk assessment: Medium \u2014 documentation gaps in the performance review file."
+  },
+  {
+    "doc_id": "ENG-9",
+    "doc_type": "Engagement Letter",
+    "client": "Fenway Capital Partners",
+    "text": "Engagement Letter for Fenway Capital Partners regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "ENG-10",
+    "doc_type": "Engagement Letter",
+    "client": "Fenway Capital Partners",
+    "text": "Engagement Letter for Fenway Capital Partners regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "MEMO-11",
+    "doc_type": "Case Memo",
+    "client": "Corrib Energy plc",
+    "text": "Internal memo regarding Corrib Energy plc's employment dispute matter. Summary: Former employee alleges unfair dismissal under the Unfair Dismissals Acts 1977-2015. Recommendation: Proceed to WRC mediation before considering a full hearing, given the cost/time trade-off. Risk assessment: Medium \u2014 documentation gaps in the performance review file."
+  },
+  {
+    "doc_id": "MEMO-12",
+    "doc_type": "Case Memo",
+    "client": "Dunmore Logistics",
+    "text": "Internal memo regarding Dunmore Logistics's employment dispute matter. Summary: Former employee alleges unfair dismissal under the Unfair Dismissals Acts 1977-2015. Recommendation: Proceed to WRC mediation before considering a full hearing, given the cost/time trade-off. Risk assessment: Medium \u2014 documentation gaps in the performance review file."
+  },
+  {
+    "doc_id": "MEMO-13",
+    "doc_type": "Case Memo",
+    "client": "Corrib Energy plc",
+    "text": "Internal memo regarding Corrib Energy plc's employment dispute matter. Summary: Former employee alleges unfair dismissal under the Unfair Dismissals Acts 1977-2015. Recommendation: Proceed to WRC mediation before considering a full hearing, given the cost/time trade-off. Risk assessment: Medium \u2014 documentation gaps in the performance review file."
+  },
+  {
+    "doc_id": "CTR-14",
+    "doc_type": "Master Services Agreement",
+    "client": "Acme Manufacturing Ltd",
+    "text": "This Master Services Agreement is entered into between Acme Manufacturing Ltd and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "ENG-15",
+    "doc_type": "Engagement Letter",
+    "client": "Dunmore Logistics",
+    "text": "Engagement Letter for Dunmore Logistics regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "ENG-16",
+    "doc_type": "Engagement Letter",
+    "client": "Dunmore Logistics",
+    "text": "Engagement Letter for Dunmore Logistics regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "ENG-17",
+    "doc_type": "Engagement Letter",
+    "client": "Emerald Biotech",
+    "text": "Engagement Letter for Emerald Biotech regarding advisory services on a proposed corporate restructuring. Scope: Advice on share transfer mechanics and tax implications. Conflict Waiver: Client acknowledges the Firm also acts for a counterparty in an unrelated matter and consents to continued representation subject to information barriers. Fees: Billed on a time-and-materials basis, invoiced monthly."
+  },
+  {
+    "doc_id": "CTR-18",
+    "doc_type": "Master Services Agreement",
+    "client": "Emerald Biotech",
+    "text": "This Master Services Agreement is entered into between Emerald Biotech and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "CTR-19",
+    "doc_type": "Master Services Agreement",
+    "client": "Beacon Retail Group",
+    "text": "This Master Services Agreement is entered into between Beacon Retail Group and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  },
+  {
+    "doc_id": "CTR-20",
+    "doc_type": "Master Services Agreement",
+    "client": "Acme Manufacturing Ltd",
+    "text": "This Master Services Agreement is entered into between Acme Manufacturing Ltd and the Firm. Termination: Either party may terminate this Agreement upon 90 days' written notice. Governing Law: This Agreement is governed by the laws of Ireland. Confidentiality: Both parties agree to maintain confidentiality of all shared information for a period of 5 years following termination. Limitation of Liability: Liability under this Agreement is capped at the fees paid in the preceding 12 months."
+  }
+]
